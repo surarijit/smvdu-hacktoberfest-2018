@@ -1,0 +1,15 @@
+#include<stdio.h>
+void revSentence();
+int main(){
+printf("Enter a number");
+revSentence();
+return 0;
+}
+void revSentence(){
+char c;
+scanf("%c"&c);
+if(c!='\n'){
+revSentence();
+printf("%c",c);
+}
+}
