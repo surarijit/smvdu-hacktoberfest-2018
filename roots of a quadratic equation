@@ -1,0 +1,24 @@
+#include<stdio.h>
+#inlcude<math.h>
+int main(){
+double a,b,c,disc,r1,r2,rpart,ipart;
+printf("Enter coefficients a,b,c");
+scanf("%lf,%lf,%lf",&a,&b,&c);
+disc=b*b-4*a*c;
+if(disc>0){
+r1=(-b+sqrt(disc))/(2*a);
+r2=(-b-sqrt(disc))/(2*a);
+printf("r1=%.2lf and r2=%.2lf;",r1,r2);
+)
+else if(disc==0)
+{
+r1=r2=-b/(2*a);
+printf(r1=r2=%.2lf:",r1);
+)
+else{
+rpart=-b/(2*a);
+ipart=sqrt(-disc)/(2*a);
+printf(r1=%.2lf+%.2lf and r2=%.2lf-%,2lf",rpart,ipart);
+}
+return 0;
+}
