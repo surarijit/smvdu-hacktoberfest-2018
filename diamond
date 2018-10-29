@@ -1,0 +1,15 @@
+#include<iostream.h>
+void main()
+{
+int i,a;
+cout<<"enter the number";
+cin>>a;
+for(i=0;i<a;++i)
+{
+cout<<"  *  \n";
+cout<<" *** \n";
+cout<<"*****\n";
+cout<<" *** \n";
+cout<<"  *  \n";
+}
+}
