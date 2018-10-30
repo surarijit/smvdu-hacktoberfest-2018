@@ -1,0 +1,17 @@
+#  artibiratary values of variable
+n_1 = "o1"
+l_1 = 0.8
+m_1 = 2
+g = 10
+a_1 = 1
+# defining variables n_ is any object l_ is ,coefficient of friction, m_mass of the object, g gravitional force due to earth,a_ acceleration produced in object
+def k(n_, l_, m_, g, a_):
+    f = l_ * m_ * g # fricitional force
+    F = m_ * a_   # external force
+    if F < f:
+        return n_ + " not move"
+else:
+    return n_ + " will move"
+r1 = k(n_1, l_1, m_1, g, a_1)
+print(r1)
+    
